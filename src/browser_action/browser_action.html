@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<style type="text/css">
+  #mainPopup {
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    font-family: "Helvetica Neue", "Helvetica", "Segoe UI", Arial, sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  button {
+    width: max-content;
+  }
+</style>
+
+<div id="mainPopup">
+  <button id="copybutton">Copy URLs</button>
+  <button id="copybuttonjson">Copy URLs as JSON</button>
+  <button id="pastebutton">Paste URLs</button>
+  <div id="result"></div>
+</div>
+
+<script src="browser_action.js"></script>

@@ -1,0 +1,15 @@
+.DS_Store
+*.zip
+*.pem
+*.crx
+node_modules/
+dist/
+build/
+*.log
+*.local
+*.env
+.vscode/
+.idea/
+.sass-cache/
+*.sublime-project
+*.sublime-workspace
