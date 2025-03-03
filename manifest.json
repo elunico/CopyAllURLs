@@ -1,6 +1,6 @@
 {
   "name": "Copy All URLs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "description": "Let's you to copy URLs in a window as text and allows you to open URLs in the current window from a list URLs on the clipboard",
   "icons": {
